@@ -23,8 +23,8 @@ Check before you switch:
 ## Why
 
 I retired one Claude account in October 2026 and moved everything to another one on the same Mac.
-The app has no export for Cowork Projects, project memory or scheduled tasks, so I read the files on
-disk and rebuilt from there. Three things surprised me:
+I found no export in the app for Cowork's local Projects, project memory or scheduled tasks, so I read
+the files on disk and rebuilt from there. Three things surprised me:
 
 - Project instructions, per-project memory and 62 scheduled-task prompts were all sitting in local files,
   but nothing in the app pointed at them.
