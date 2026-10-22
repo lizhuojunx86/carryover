@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "carryover"
+dynamic = ["version"]
+description = "Move a Claude workspace (Claude Code + Cowork) to a new account or machine. Read-only, never copies credentials."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Zhuojun Li" }]
+keywords = ["claude", "claude-code", "cowork", "backup", "migration", "export"]
+classifiers = [
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Topic :: System :: Archiving :: Backup",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/lizhuojunx86/carryover"
+
+[project.scripts]
+carryover = "carryover.cli:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "carryover.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
