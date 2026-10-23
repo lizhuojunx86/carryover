@@ -3,7 +3,7 @@
 Move a Claude workspace to a new account or a new machine: Claude Code sessions, Cowork tasks, Projects,
 scheduled tasks and memory. It only reads your data and never copies credentials.
 
-[中文说明](README.zh-CN.md)
+[中文说明](https://github.com/lizhuojunx86/carryover/blob/main/README.zh-CN.md)
 
 ```
 $ carryover scan
@@ -67,8 +67,10 @@ state of the folders, and save only what still holds.
 Python 3.9 or newer, standard library only.
 
 ```
+pipx install carryover
+# or, for the unreleased main branch
 pipx install git+https://github.com/lizhuojunx86/carryover
-# or
+# or from a clone
 git clone https://github.com/lizhuojunx86/carryover && cd carryover && python3 -m pip install .
 ```
 

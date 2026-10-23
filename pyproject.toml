@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,13 +8,13 @@ dynamic = ["version"]
 description = "Move a Claude workspace (Claude Code + Cowork) to a new account or machine. Read-only, never copies credentials."
 readme = "README.md"
 requires-python = ">=3.9"
-license = { text = "MIT" }
+license = "MIT"
 authors = [{ name = "Zhuojun Li" }]
 keywords = ["claude", "claude-code", "cowork", "backup", "migration", "export"]
 classifiers = [
   "Environment :: Console",
-  "License :: OSI Approved :: MIT License",
   "Operating System :: MacOS",
+  "Operating System :: Microsoft :: Windows",
   "Operating System :: POSIX :: Linux",
   "Programming Language :: Python :: 3",
   "Topic :: System :: Archiving :: Backup",

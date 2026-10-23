@@ -2,7 +2,7 @@
 
 把 Claude 工作区搬到新账号或新电脑：Claude Code 会话、Cowork 任务、Projects、定时任务和记忆。只读源数据，不拷任何凭证。
 
-[English](README.md)
+[English](https://github.com/lizhuojunx86/carryover/blob/main/README.md)
 
 ## 为什么做这个
 
@@ -19,6 +19,8 @@ carryover 就是那天写的脚本整理出来的版本。
 需要 Python 3.9 以上，只用标准库。
 
 ```
+pipx install carryover
+# 或者装 main 分支上还没发布的版本
 pipx install git+https://github.com/lizhuojunx86/carryover
 
 carryover scan                        # 盘点和预警，不写任何文件
