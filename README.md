@@ -33,7 +33,8 @@ the files on disk and rebuilt from there. Three things surprised me:
 - Halfway through, Claude Code started once and removed 13 of my transcripts. It deletes local transcripts
   older than 30 days by default (`cleanupPeriodDays`), and I had never changed that.
 
-carryover is the cleaned-up version of the scripts I wrote that day.
+carryover is the cleaned-up version of the scripts I wrote that day. The longer story is on
+[dev.to](https://dev.to/lizhuojunx86/i-moved-432-cowork-tasks-to-a-new-claude-account-claude-code-deleted-13-of-my-transcripts-on-the-1d0i).
 
 ## What you get
 
